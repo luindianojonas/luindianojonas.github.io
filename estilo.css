@@ -1,0 +1,42 @@
+/* estilo das abas e menu de navegação */
+.nav a {
+    text-decoration: none;
+    margin: 0 10px; /* espaçamento entre abas */
+    padding: 5px 25px;
+    color: #ffffff; /* cor dos links no menu */
+}
+.nav {
+    background-color: #000000;
+    display: flex; /* usa flexbox para alinhamento horizontal */
+    justify-content: center; /* centraliza os itens */
+}
+body {
+    background-color: #ffffff;
+}
+
+
+
+/* estilo dos textos */
+body {
+    font-family: 'Arial', sans-serif; /* escolher uma fonte */
+    line-height: 2.0; /* melhora a legibilidade */
+    margin: 50px;
+}
+h1 {
+    font-family: 'Georgia', serif; /* fonte diferente pros títulos */
+    color: #000000; /* tons de escuro pros títulos */
+}
+p {
+    font-size: 1.3rem; /* tamanho padrão pros parágrafos */
+    color:#000000;
+}
+
+
+/* estilo das imagens */
+img {
+    display: block;    /* faz com que a imagem se comporte como um bloco, permitindo que o margin funcione corretamente */
+    margin: auto;    /* define margens automáticas nas laterais, centralizando a imagem horizontalmente */
+}
+.logo {
+    height: 95px;
+}
